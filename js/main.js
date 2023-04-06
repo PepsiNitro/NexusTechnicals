@@ -11,10 +11,10 @@ about.addEventListener('click', () => {
     // modal: true,
     width: '400px',
     height: '400px',
-    top: 50,
-    right: 50,
-    bottom: 50,
-    left: 50,
+    top: 5,
+    right: 5,
+    bottom: 5,
+    left: 5,
     mount: aboutContent,
     onfocus: function () {
       this.setBackground('#003cff')
@@ -30,10 +30,10 @@ contact.addEventListener('click', () => {
     title: 'Contact Me',
     width: '400px',
     height: '400px',
-    top: 50,
-    right: 50,
-    bottom: 50,
-    left: 50,
+    top: 5,
+    right: 5,
+    bottom: 5,
+    left: 5,
     mount: contactContent,
     onfocus: function () {
       this.setBackground('#003cff')
@@ -49,10 +49,10 @@ portfolio.addEventListener('click', () => {
     title: 'Portfolio',
     width: '400px',
     height: '400px',
-    top: 50,
-    right: 50,
-    bottom: 50,
-    left: 50,
+    top: 5,
+    right: 5,
+    bottom: 5,
+    left: 5,
     mount: portfolioContent,
     onfocus: function () {
       this.setBackground('#003cff')
